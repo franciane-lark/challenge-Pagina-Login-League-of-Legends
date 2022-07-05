@@ -1,8 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
-main{
+main {
     display: flex;
+}
+.text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+.figure-riot{
+    margin: 4rem 4rem auto;
+}
+.riot {
+    width: 150px;
+    height: 52px;
+    margin-left: 2rem;
+}
+.space-name {
+    position: absolute;
+    margin-left: 4.5rem;
+    margin-top: 0.2rem;
+}
+.caixa-1 {
+    margin-top: 0.5rem;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    background-color: #E8E6E6;
+    width: 220px;
+    height: 35px;
+    border: none;
+    margin-left: 4rem;
+    border-radius: 3px;
+}
+.caixa-2{
+    margin-top: 0.5rem;
+}
+.space-password {
+    position: absolute;
+    margin-left: 4.5rem;
+    margin-top: 0.2rem;
+}
+.password {
+    display: flex;
+    flex-direction: column;
+    background-color: #E8E6E6;
+    width: 220px;
+    height: 35px;
+    border: none;
+    margin-left: 4rem;
+    border-radius: 3px;
+}
+.caixa-3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 19.7rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.face {
+    background-color: #2051FF;
+    width: 43px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.icon-face figure img {
+    width: 10px;
+    height: 10px;
+}
+.google {
+    background-color: #8A0000;
+    width: 43px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.icon-google figure img {
+    width: 10px;
+    height: 10px;
+}
+.apple {
+    background-color: #000000;
+    width: 43px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.icon-apple figure img {
+    width: 10px;
+    height: 10px;
+}
+.caixa-4 {
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+}
+.click-login {
+    background-color: #E8E6E6;
+    border: none;
+}
+.space-checkbox {
+    font-weight: 700;
+    font-size: 15px;
 }
