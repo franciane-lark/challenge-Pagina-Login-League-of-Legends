@@ -25,6 +25,7 @@ main {
     position: absolute;
     margin-left: 4.5rem;
     margin-top: 0.2rem;
+    font-size: 10px;
 }
 .caixa-1 {
     margin-top: 0.5rem;
@@ -46,6 +47,7 @@ main {
     position: absolute;
     margin-left: 4.5rem;
     margin-top: 0.2rem;
+    font-size: 10px;
 }
 .password {
     display: flex;
@@ -71,9 +73,9 @@ main {
     border: none;
     border-radius: 5px;
 }
-.icon-face figure img {
-    width: 10px;
-    height: 10px;
+.icon-face {
+    width: 15px;
+    height: 15px;
 }
 .google {
     background-color: #8A0000;
@@ -82,9 +84,9 @@ main {
     border: none;
     border-radius: 5px;
 }
-.icon-google figure img {
-    width: 10px;
-    height: 10px;
+.icon-google {
+    width: 15px;
+    height: 15px;
 }
 .apple {
     background-color: #000000;
@@ -93,9 +95,9 @@ main {
     border: none;
     border-radius: 5px;
 }
-.icon-apple figure img {
-    width: 10px;
-    height: 10px;
+.icon-apple {
+    width: 15px;
+    height: 15px;
 }
 .caixa-4 {
     margin-left: 4rem;
@@ -108,4 +110,26 @@ main {
 .space-checkbox {
     font-weight: 700;
     font-size: 15px;
+}
+.caixa-5 {
+    margin-left: 9.5rem;
+    margin-top: 5rem;
+}
+.seta {
+    background-color: #FF002E36;
+    width: 45px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+.icon-seta {
+    width: 15px;
+    height: 15px;
+}
+.criar-conta {
+    color: #A6A6A6;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-size: 10px;
 }
